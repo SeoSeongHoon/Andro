@@ -12,7 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="WellCome to Laboum App"
+        android:text="WellCome to My App"
+        android:background="@drawable/border_style"
+        android:layout_marginTop="53dp"
         android:id="@+id/TV1"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
@@ -24,7 +26,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/IV1"
-        android:src="@drawable/laboum"
+        android:src="@drawable/digitech"
+        android:layout_marginBottom="53dp"
         android:layout_centerVertical="true"
         android:layout_alignParentStart="true" />
 
@@ -40,7 +43,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="라떼"
+        android:text="인터넷 연결"
         android:id="@+id/button"
         android:onClick="touch2"
         android:layout_below="@+id/IV1"

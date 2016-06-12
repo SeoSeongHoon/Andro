@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void touch2(View v){
         Intent intent2 = new Intent(Intent.ACTION_VIEW);
-        Uri u = Uri.parse("http://m.cafe.daum.net/officialLABOUM");
+        Uri u = Uri.parse("http://m.naver.com");
 
         intent2.setData(u);
         startActivity(intent2);

@@ -20,7 +20,7 @@ public class MediaActivity  extends AppCompatActivity {
         MediaController mc = new MediaController(this);
 
         Uri videoUri = Uri.parse(
-                "android.resource://" + getPackageName() + "/raw/sangple2"
+                "android.resource://" + getPackageName() + "/raw/dumb"
         );
 
         videoViewExample.setMediaController(mc);

@@ -24,7 +24,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="WelCome LABOUM Image"
+                android:text="WelCome To Image"
                 android:id="@+id/textView"
                 android:layout_marginTop="30dp"
                 android:layout_marginLeft="45dp" />
@@ -32,25 +32,26 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="250dp"
-                android:src="@drawable/solbin"
-                android:layout_marginTop="100dp"
+                android:src="@drawable/digitech"
+                android:layout_marginTop="10dp"
                 />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="300dp"
                 android:layout_marginTop="100dp"
-                android:src="@drawable/laboum"
+                android:src="@drawable/digitech"
                 />
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ujung"
+                android:src="@drawable/digitech"
                 />
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ujung"
+                android:src="@drawable/digitech"
+                android:layout_marginTop="30dp"
                 />
 
         </LinearLayout>
